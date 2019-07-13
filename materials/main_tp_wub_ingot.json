@@ -1,0 +1,42 @@
+{
+    "type": "main",
+    "stats": [
+        {"name": "durability",      "value":   2064},
+        {"name": "armor_durability","value":      9},
+        {"name": "enchantability",  "value":     10},
+        {"name": "harvest_level",   "value":      3},
+        {"name": "harvest_speed",   "value":     12},
+        {"name": "melee_damage",    "value":      8},
+        {"name": "magic_damage",    "value":      6},
+        {"name": "attack_speed",    "value":    0.1},
+        {"name": "armor",           "value":     17},
+        {"name": "armor_toughness", "value":      8},
+        {"name": "magic_armor",     "value":     12},
+        {"name": "ranged_damage",   "value":      3},
+        {"name": "ranged_speed",    "value":    0.1},
+        {"name": "rarity",          "value":     80},
+        {"name": "chargeability",   "value":      1}
+    ],
+    "traits": [
+        {"name": "silentgear:malleable", "level": 2}
+    ],
+    "crafting_items": {
+        "normal": {
+            "item": "tp:wub_ingot",
+            "oredict": "ingotWub"
+        }
+    },
+    "display": {
+        "hidden": false,
+        "texture_suffix": "iron",
+        "texture_color": "2551700",
+        "broken_color": "2551700",
+        "name_color": "gold",
+        "override_localization": "Wub"
+    },
+    "availability": {
+        "enabled": true,
+        "tier": 3,
+        "tool_blacklist": []
+    }
+}
